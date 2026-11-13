@@ -5,7 +5,7 @@ import SignUp from './pages/SignUp'
 
 export default function App() {
   return (
-    <Routes>
+    <Routes
       <Route path="/" element={<Navigate to="/signin" />} />
       <Route path="*" element={<Navigate to="/signin" />} />
 
