@@ -1,0 +1,12 @@
+.HarborPhotograph { 
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.HarborPhotograph img { 
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

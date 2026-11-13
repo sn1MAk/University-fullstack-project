@@ -1,0 +1,33 @@
+.input-box { 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 6px;
+}
+
+.input-box label { 
+    width: 100%;
+    padding: 0 16px;
+    font-weight: 400;
+    font-size: 11px;
+    color: #4d4d4d;
+}
+
+.input-box input { 
+    width: 100%;
+    height: 48px;
+    border: 0.75px solid #e8e8e8;
+    border-radius: 6px;
+    padding: 0 16px;
+    background: #f2f2f2;
+}
+
+.input-box input::placeholder { 
+    font-weight: 400;
+    font-size: 15px;
+    color: #808080;
+}
+
+.input-box .error { 
+    border: 0.75px solid red;
+}

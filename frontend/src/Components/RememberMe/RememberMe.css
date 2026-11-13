@@ -1,0 +1,49 @@
+.RememberMe { 
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.RememberMe span { 
+    font-weight: 400;
+    font-size: 12px;
+    color: #1a1a1a;
+}
+
+.RememberMe label { 
+    width: 40px;
+    height: 20px;
+    background: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    border: 1px solid #e8e8e8;
+    background: #f2f2f2;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.RememberMe label::before { 
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 16px;
+    height: 16px;
+    background: white;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.RememberMe input {
+    display: none;
+}
+
+.RememberMe input:checked + label {
+    background-color: #007AFF;
+}
+
+.RememberMe input:checked + label::before {
+    transform: translateX(20px)
+}

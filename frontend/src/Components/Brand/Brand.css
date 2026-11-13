@@ -1,0 +1,17 @@
+.Brand { 
+    display: flex;
+    height: 48px;
+    gap: 9px;
+    align-items: center;
+}
+
+.Brand img {
+    width: 48px;
+    height: 48px;
+}
+
+.Brand p { 
+    font-weight: 600;
+    font-size: 18px;
+    color: #1a1a1a;
+}
