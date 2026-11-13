@@ -19,6 +19,8 @@ import Google from '/GoogleLogo.svg'
 
 
 export default function SignIn() {
+  const navigate = useNavigate('');
+
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [emailError, setEmailError] = useState(false);
@@ -33,7 +35,7 @@ export default function SignIn() {
       const data = await login(email, password);
 
       console.log('Login successful:', data);
-      useNavigate('/signup');
+      navigate('/signup');
 
     } catch (error) {
       console.log(error.message);
