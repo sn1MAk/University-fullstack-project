@@ -49,7 +49,6 @@ export default function SignIn() {
         <HarborPhotograph />
 
         <div className='SignInPanel'>
-            <h1>HIIIII</h1>
             <h1>SNm1kakk</h1>
             <Brand />
 
